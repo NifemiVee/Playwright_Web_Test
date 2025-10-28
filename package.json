@@ -1,0 +1,27 @@
+{
+  "name": "playwright_web_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "head": "npx playwright test --headed",
+    "jumia-test": "npx playwright test tests/jumia-web.spec.js"  
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NifemiVee/Playwright_Web_Test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/NifemiVee/Playwright_Web_Test/issues"
+  },
+  "homepage": "https://github.com/NifemiVee/Playwright_Web_Test#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.9.1"
+  }
+}

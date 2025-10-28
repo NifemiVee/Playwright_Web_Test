@@ -1,0 +1,13 @@
+np
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+/test/screenshots/
+/test/videos/
+/test/traces/
+/tests/example.spec.js
